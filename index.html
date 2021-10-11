@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Librerías -->
+    <script src="https://kit.fontawesome.com/430e0fa557.js" crossorigin="anonymous"></script>
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>MatcheADAs</title>
+</head>
+
+<body>
+    <div class="imagenFondo"> 
+        <div class="titulo">
+            <h1>MatcheADAs</h1>
+            <div class="barra-control">
+                <div class="alignLeft">
+                    <p>Combo X<span id="combo">1</span></p>
+                </div>
+                <div class="alignLeft"> 
+                    <p>Puntos:<span id="puntos">0</span></p>
+                </div>
+            
+                <div class="alignRigth">
+                    <button id="btn-info"><i class="fas fa-info-circle"></i></button>
+                
+                    <button id="btn-refresh"><i class="fas fa-redo-alt"></i></button>
+                </div>
+            </div>
+        <div class="container" id="container"></div>
+        <div class="reloj" id="temporizador"><i class="fas fa-hourglass-half"></i> 0:00</div>
+        </div>
+
+        
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
